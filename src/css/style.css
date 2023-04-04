@@ -1,0 +1,295 @@
+* {
+  font-family: 'Rooboto', sans-serif;
+
+}
+
+header {
+  position: relative;
+}
+
+nav {
+  height: 50px;
+  background-color: #212121;
+}
+
+.menu {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style: none;
+}
+
+.menu .menu_link {
+  /* вид ссылок в меню */
+  width: 999px;
+  height: 14px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+
+}
+
+
+.menu .menu_item
+
+/* разделитель кнопок меню вид точки */
+  {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+.subheader {
+  /* Style подзаголовка под меню */
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, .6);
+  position: absolute;
+  /* прозрачность фона */
+}
+
+.subheader .subheader_logo {
+  display: block;
+  min-width: 100px;
+  margin-top: 16px;
+}
+
+.subheader .subheader_official {
+  /* Style for "Официальный" */
+  margin-top: 6px;
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  /* line-height: 68px;
+text-align: left; */
+
+}
+
+.subheader .subheader_call {
+  /* Style for "Звоните на" */
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 19px;
+  text-align: right;
+}
+
+.subheader .subheader_phone {
+  display: block;
+  /* Style for "8 495 797" */
+  margin-top: 8px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 12px;
+  /* межстрочный интервал */
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subheader .subheader_btn {
+  /* Style for кнопка заказать звонок" */
+  width: 172px;
+  height: 46px;
+  margin-top: 19px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  /* Style for "заказать з" */
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.promo {
+  min-width: 800px;
+  background: url(../img/bg/bg1.png) center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+  /* Style for "КОМПАНИЯ U" */
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercas;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0;
+  text-align: center;
+}
+
+.promo .promo_subheader {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 22px;
+  text-align: center;
+}
+
+.promo .promo_descr {
+  /* Style for "Компания U" */
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 23px;
+}
+
+.promo .promo_btn {
+  /* Style for "Rounded Re" */
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  /* Style for "ОТПРАВИТЬ" */
+
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+.reasons {
+  padding: 71px 0 65px 0;
+}
+
+.label {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px 5px 10px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.reasons .reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.reasons .reasons_block .reasons_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+
+.reasons .reasons_block .reasons_descr {
+  width: 343px;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_subtitle{
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+/* .advantages {
+  display: flex;
+   margin: 49px auto 43px auto;
+} */
+
+/* .advantages .advantages_btn {
+  
+  display: block;
+  width: 112px;
+  height: 24px;
+  background-color: #000000;
+ 
+  color: #ffffff;
+  border: none;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 71px auto 0 auto;
+} */
+
+/* .advantages .advantages_reasons {
+  
+  display: block;
+  margin: 38px auto;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+
+} */
+
+/* .icon {
+  display: flex;
+
+} */
+/* 
+.reasons_icon {
+  width: 113px;
+  height: 113px;
+  margin: 10px 26px 0 auto;
+} */
+
+/* p {
+ 
+} */
+
+/* .icon_text {
+  justify-content: space-between;
+  min-width: 341px;
+  height: 141px;
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: inherit;
+} */
+
+/* .bold_text {
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+  
+} */
